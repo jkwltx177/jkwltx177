@@ -78,7 +78,7 @@ now:     "AI 서비스를 End-to-End로 설계하는 엔지니어로 성장 중"
 
 #### Language / CS Foundation
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-<br/><sub>자료구조·알고리즘 집중 학습 (Unreal Engine 병행)</sub>
+<br/><sub>자료구조·알고리즘 집중 학습</sub>
 
 #### Interactive / Game
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
