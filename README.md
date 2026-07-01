@@ -13,7 +13,7 @@
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2E3192,100:1BFFFF&height=200&section=header&text=Juhwan%20Kim%20|%20AI%20Service%20Engineer&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=%EA%B8%B0%EC%88%A0%EC%9D%84%20%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%20%EA%B0%80%EC%B9%98%EB%A1%9C%20%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4&descSize=16&descAlignY=58" />
 
 <a href="https://github.com/DenverCoder1/readme-typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Nanum+Gothic&weight=700&size=22&duration=3500&pause=800&color=2E3192&center=true&vCenter=true&width=720&lines=%EC%98%88%EC%88%A0%EA%B3%B5%ED%95%99%EC%97%90%EC%84%9C+AI+%EC%84%9C%EB%B9%84%EC%8A%A4+%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4%EB%A1%9C;LLM+Agent+%C2%B7+MSA+%C2%B7+Computer+Vision+%EC%A0%84%EB%B0%98%EC%9D%84+%EB%8B%A4%EB%A3%B9%EB%8B%88%EB%8B%A4;%EC%B5%9C%EC%8B%A0+%EB%85%BC%EB%AC%B8%EC%9D%84+%EC%98%A4%EB%8A%98%EC%9D%98+%EC%86%94%EB%A3%A8%EC%85%98%EC%9C%BC%EB%A1%9C+%EC%9D%B4%EC%8B%9D%ED%95%A9%EB%8B%88%EB%8B%A4" alt="typing" />
+  <img src="https://readme-typing-svg.demolab.com?font=Nanum+Gothic&weight=700&size=22&duration=3500&pause=800&color=2E3192&center=true&vCenter=true&width=720&lines=AI+Service+Engineer+%C2%B7+AX+Engineer;LLM+Agent+%C2%B7+RAG+%C2%B7+MSA+%C2%B7+Computer+Vision" alt="typing" />
 </a>
 
 <br/>
