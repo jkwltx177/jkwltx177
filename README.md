@@ -42,7 +42,7 @@
 name:    "김주환 (Juhwan Kim)"
 role:    "AI Service Engineer / AX Engineer"
 focus:   ["LLM Agent", "RAG", "Multi-Agent Orchestration", "MSA", "Computer Vision"]
-motto:   "기술(Paper) → 프로덕트(Product) → 임팩트(Impact)"
+motto:   "기술 → 프로덕트 → 임팩트"
 now:     "AI 서비스를 End-to-End로 설계하는 엔지니어로 성장 중"
 ```
 
