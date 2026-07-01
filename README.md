@@ -1,29 +1,31 @@
 <!--
   ┌─────────────────────────────────────────────────────────────────┐
-  │  jkwltx177 GitHub Profile README                                  │
-  │  사용법: 이 파일 내용을  github.com/jkwltx177/jkwltx177  저장소의   │
-  │          README.md  로 그대로 붙여넣으세요. (아래 안내 참고)        │
-  │  플레이스홀더(주석 표시)는 본인 정보로 교체하면 됩니다.             │
+  │  테마 컬러: 딥네이비 #0C0D64 · 블랙 #000000                       │
   └─────────────────────────────────────────────────────────────────┘
 -->
 
 <!-- ===================== HEADER ===================== -->
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:2E3192,100:1BFFFF&height=200&section=header&text=Juhwan%20Kim%20|%20AI%20Service%20Engineer&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=%EA%B8%B0%EC%88%A0%EC%9D%84%20%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%20%EA%B0%80%EC%B9%98%EB%A1%9C%20%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4&descSize=16&descAlignY=58" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:0C0D64&height=200&section=header&text=Juhwan%20Kim%20|%20AI%20Service%20Engineer&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=%EA%B8%B0%EC%88%A0%EC%9D%84%20%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%20%EA%B0%80%EC%B9%98%EB%A1%9C%20%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4&descSize=16&descAlignY=58" />
 
-<a href="https://github.com/DenverCoder1/readme-typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Nanum+Gothic&weight=700&size=22&duration=3500&pause=800&color=2E3192&center=true&vCenter=true&width=720&lines=AI+Service+Engineer+%C2%B7+AX+Engineer;LLM+Agent+%C2%B7+RAG+%C2%B7+MSA+%C2%B7+Computer+Vision" alt="typing" />
-</a>
+<!-- 픽셀아트 배너로 교체하려면: header.png 를 저장소에 커밋한 뒤 위 줄 대신 아래 줄 사용
+<img width="100%" src="./header.png" alt="Juhwan Kim — AI Service Engineer" />
+-->
+
+<p align="center">
+  <strong>AI Service Engineer&nbsp;·&nbsp;AX Engineer</strong><br/>
+  <code>LLM Agent</code> · <code>RAG</code> · <code>MSA</code> · <code>Computer Vision</code>
+</p>
 
 <br/>
 
 <!-- Contact / Social badges (링크는 본인 것으로 교체) -->
-<a href="mailto:jkwltx177@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=flat-square&logo=gmail&logoColor=white" /></a>
-<a href="https://github.com/jkwltx177"><img src="https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white" /></a>
+<a href="mailto:jkwltx177@gmail.com"><img src="https://img.shields.io/badge/Email-0C0D64?style=flat-square&logo=gmail&logoColor=white" /></a>
+<a href="https://github.com/jkwltx177"><img src="https://img.shields.io/badge/GitHub-0C0D64?style=flat-square&logo=github&logoColor=white" /></a>
 <!-- 기술 블로그가 있다면 링크 교체 (Velog/Tistory/Notion 등) -->
-<a href="https://velog.io/@jkwltx177"><img src="https://img.shields.io/badge/Blog-FF5722?style=flat-square&logo=googlechrome&logoColor=white" /></a>
-<img src="https://komarev.com/ghpvc/?username=jkwltx177&style=flat-square&color=2E3192&label=Profile+Views" />
+<a href="https://velog.io/@jkwltx177"><img src="https://img.shields.io/badge/Blog-0C0D64?style=flat-square&logo=velog&logoColor=white" /></a>
+<img src="https://komarev.com/ghpvc/?username=jkwltx177&style=flat-square&color=0C0D64&label=Profile+Views" />
 
 </div>
 
@@ -178,16 +180,16 @@ now:     "AI 서비스를 End-to-End로 설계하는 엔지니어로 성장 중"
 
 <div align="center">
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=jkwltx177&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&title_color=2E3192&icon_color=1BFFFF&theme=default" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jkwltx177&layout=compact&hide_border=true&langs_count=8&title_color=2E3192&theme=default" />
+<img height="165" src="https://github-readme-stats.vercel.app/api?username=jkwltx177&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0C0D64&title_color=FFFFFF&text_color=D6DEFF&icon_color=8AB4FF" />
+<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jkwltx177&layout=compact&hide_border=true&langs_count=8&bg_color=0C0D64&title_color=FFFFFF&text_color=D6DEFF" />
 
 <br/>
 
-<img height="165" src="https://streak-stats.demolab.com/?user=jkwltx177&hide_border=true&ring=2E3192&fire=1BFFFF&currStreakLabel=2E3192" />
+<img height="165" src="https://streak-stats.demolab.com/?user=jkwltx177&hide_border=true&background=0C0D64&ring=8AB4FF&fire=8AB4FF&currStreakNum=FFFFFF&currStreakLabel=FFFFFF&sideNums=FFFFFF&sideLabels=FFFFFF&dates=C9D1FF&stroke=8AB4FF" />
 
 <br/>
 
-<img width="90%" src="https://github-profile-trophy.vercel.app/?username=jkwltx177&theme=flat&no-frame=true&column=7&margin-w=8&margin-h=8" />
+<img width="90%" src="https://github-profile-trophy.vercel.app/?username=jkwltx177&theme=darkhub&no-frame=true&column=7&margin-w=8&margin-h=8" />
 
 </div>
 
@@ -198,6 +200,6 @@ now:     "AI 서비스를 End-to-End로 설계하는 엔지니어로 성장 중"
 
 **"실패를 두려워하지 않고, 스스로 문제를 정의하여 해결하는 엔지니어"**
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1BFFFF,100:2E3192&height=120&section=footer" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0C0D64,100:000000&height=120&section=footer" />
 
 </div>
