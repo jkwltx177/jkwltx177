@@ -7,11 +7,12 @@
 <!-- ===================== HEADER ===================== -->
 <div align="center">
 
+<!--
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:0C0D64&height=200&section=header&text=Juhwan%20Kim%20|%20AI%20Service%20Engineer&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=%EA%B8%B0%EC%88%A0%EC%9D%84%20%EB%B9%84%EC%A6%88%EB%8B%88%EC%8A%A4%20%EA%B0%80%EC%B9%98%EB%A1%9C%20%EC%97%B0%EA%B2%B0%ED%95%98%EB%8A%94%20%EC%97%94%EC%A7%80%EB%8B%88%EC%96%B4&descSize=16&descAlignY=58" />
-
-<!-- 픽셀아트 배너로 교체하려면: header.png 를 저장소에 커밋한 뒤 위 줄 대신 아래 줄 사용
-<img width="100%" src="./header.png" alt="Juhwan Kim — AI Service Engineer" />
 -->
+
+<img width="100%" src="./header_skyline.png" alt="Juhwan Kim — AI Service Engineer" />
+
 
 <p align="center">
   <strong>AI Service Engineer&nbsp;·&nbsp;AX Engineer</strong><br/>
