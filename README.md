@@ -201,6 +201,6 @@ now:     "AI 서비스를 End-to-End로 설계하는 엔지니어로 성장 중"
 
 **"실패를 두려워하지 않고, 스스로 문제를 정의하여 해결하는 엔지니어"**
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0C0D64,100:000000&height=120&section=footer" />
+<img width="100%" src="./header_minimal.png" alt="" />
 
 </div>
