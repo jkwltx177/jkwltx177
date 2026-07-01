@@ -181,16 +181,21 @@ now:     "AI 서비스를 End-to-End로 설계하는 엔지니어로 성장 중"
 
 <div align="center">
 
+<img height="170" src="https://streak-stats.demolab.com/?user=jkwltx177&hide_border=true&background=0C0D64&ring=8AB4FF&fire=8AB4FF&currStreakNum=FFFFFF&currStreakLabel=FFFFFF&sideNums=FFFFFF&sideLabels=FFFFFF&dates=C9D1FF&stroke=8AB4FF" />
+
+<!--
+  아래 통계/언어/트로피 카드는 공용 서버가 현재 과부하로 자주 깨집니다.
+    · github-readme-stats.vercel.app  → 503 (통계·언어 카드)
+    · github-profile-trophy.vercel.app → 402 (트로피)
+  안정적으로 쓰려면 github-readme-stats 를 본인 Vercel 계정에 self-host 한 뒤
+  아래 도메인만 본인 인스턴스 주소로 바꿔서 주석을 해제하세요.
+  가이드: https://github.com/anuraghazra/github-readme-stats#deploy-on-your-own
+<br/>
 <img height="165" src="https://github-readme-stats.vercel.app/api?username=jkwltx177&show_icons=true&include_all_commits=true&count_private=true&hide_border=true&bg_color=0C0D64&title_color=FFFFFF&text_color=D6DEFF&icon_color=8AB4FF" />
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=jkwltx177&layout=compact&hide_border=true&langs_count=8&bg_color=0C0D64&title_color=FFFFFF&text_color=D6DEFF" />
-
 <br/>
-
-<img height="165" src="https://streak-stats.demolab.com/?user=jkwltx177&hide_border=true&background=0C0D64&ring=8AB4FF&fire=8AB4FF&currStreakNum=FFFFFF&currStreakLabel=FFFFFF&sideNums=FFFFFF&sideLabels=FFFFFF&dates=C9D1FF&stroke=8AB4FF" />
-
-<br/>
-
 <img width="90%" src="https://github-profile-trophy.vercel.app/?username=jkwltx177&theme=darkhub&no-frame=true&column=7&margin-w=8&margin-h=8" />
+-->
 
 </div>
 
@@ -199,7 +204,7 @@ now:     "AI 서비스를 End-to-End로 설계하는 엔지니어로 성장 중"
 
 <br/>
 
-**"실패를 두려워하지 않고, 스스로 문제를 정의하여 해결하는 엔지니어"**
+**실패를 두려워하지 않고, 스스로 문제를 정의하여 해결하는 엔지니어**
 
 <img width="100%" src="./header_minimal.png" alt="" />
 
