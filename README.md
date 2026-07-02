@@ -21,16 +21,14 @@
 
 <br/>
 
-<!-- Contact / Social badges (링크는 본인 것으로 교체) -->
 <a href="mailto:jkwltx177@gmail.com"><img src="https://img.shields.io/badge/Email-0C0D64?style=flat-square&logo=gmail&logoColor=white" /></a>
 <a href="https://github.com/jkwltx177"><img src="https://img.shields.io/badge/GitHub-0C0D64?style=flat-square&logo=github&logoColor=white" /></a>
-<!-- 기술 블로그가 있다면 링크 교체 (Velog/Tistory/Notion 등) -->
 <a href="https://velog.io/@jkwltx177"><img src="https://img.shields.io/badge/Blog-0C0D64?style=flat-square&logo=velog&logoColor=white" /></a>
-<img src="https://komarev.com/ghpvc/?username=jkwltx177&style=flat-square&color=0C0D64&label=Profile+Views" />
 
 </div>
 
 <!-- ===================== ABOUT ===================== -->
+<!--
 ## About Me
 
 > **"경계를 허무는 예술공학의 시각으로, 기술을 비즈니스 가치로 연결하는 AI 서비스 엔지니어"**
@@ -48,7 +46,7 @@ focus:   ["LLM Agent", "RAG", "Multi-Agent Orchestration", "MSA", "Computer Visi
 motto:   "기술 → 프로덕트 → 임팩트"
 now:     "AI 서비스를 End-to-End로 설계하는 엔지니어로 성장 중"
 ```
-
+-->
 <!-- ===================== TECH STACK ===================== -->
 ## Tech Stack
 
@@ -79,7 +77,6 @@ now:     "AI 서비스를 End-to-End로 설계하는 엔지니어로 성장 중"
 
 #### Language / CS Foundation
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
-<br/><sub>자료구조·알고리즘 집중 학습</sub>
 
 #### Interactive / Game
 ![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=csharp&logoColor=white)
@@ -112,7 +109,7 @@ now:     "AI 서비스를 End-to-End로 설계하는 엔지니어로 성장 중"
 - 시나리오 생성을 **TS·TC·TV Agent로 분리**해 컨텍스트 폭주·할루시네이션 완화 → **LLM 호출 비용 약 93%↓**($0.21→$0.0144, usage_metadata 실측)
 - `LangGraph` Orchestrator(Layer 0~3, 9 Agent · 8 Tool) · `FastAPI` · `Spring Boot` · `React`+`Vite` · `Playwright` · `tree-sitter`(AST) · `Qdrant` · `BGE-M3` · `Celery`/`Redis` · `PostgreSQL`+`S3`
 - 테스트 대상 시스템 **Mini-BSS**(통신 BSS MSA: FastAPI×2 + Vue 3, 의도적 결함 7종 골든셋)까지 직접 설계·구현
-- **[skala-QApilot →](https://github.com/skala-QApilot)** · **[SUT 데모 →](https://github.com/skala-QApilot/system-under-test)**
+- **[skala-QApilot](https://github.com/skala-QApilot)** · **[SUT](https://github.com/skala-QApilot/system-under-test)**
 
 ### baggin' — 자율 논문 리서치 · 업무 적용 보고서 생성 AI Agent
 > **SKALA AI 서비스 개발 미니 프로젝트 94.8점** · 전체 아키텍처 · 논문 평가 AI Agent 설계 담당
@@ -121,7 +118,7 @@ now:     "AI 서비스를 End-to-End로 설계하는 엔지니어로 성장 중"
 - **모니터링**: arXiv·HuggingFace 3시간 주기 수집 → 출처(학회·인용)·정량 성과(Semantic Scholar) 필터 → GPT-4o+Tavily Impact Scoring → Kafka 이벤트 → ChromaDB 적재
 - **논문 평가**(AIRA): 3-temp Reviewer(GPT-4o) 앙상블 · Self-Reflection ×2 · Area Chair 메타리뷰 → 점수 ≥ 5.0 Accept → 요약·분류·저장
 - `Spring Cloud`(Eureka·Gateway) · `FastAPI` · `Vue 3` · `Kafka` · `MariaDB` · `ChromaDB` · `GPT-4o`/`Claude`
-- **[Repository →](https://github.com/jkwltx177/baggin)**
+- **[Repository](https://github.com/jkwltx177/baggin)**
 
 ### Smart Glass AI System — 스마트글래스 기반 설비 예지진단 시스템
 > AI Team Project · MSA 설계 및 AI 서버 구현
@@ -129,7 +126,7 @@ now:     "AI 서비스를 End-to-End로 설계하는 엔지니어로 성장 중"
 스마트글래스의 음성·영상 입력으로 설비 상태를 진단하고 **잔여수명(RUL)·고장확률을 예측**하는 마이크로서비스 시스템입니다.
 - `FastAPI` · `Spring Boot` · `Vue.js` · `LangGraph` · `LGBM`/`XGBoost`/`TCN`/`LSTM` · `FAISS`/`Milvus` · `Docker`/`K8s`/`ArgoCD`
 - LangGraph로 음성 인식·영상 분석·시계열 예측·RAG 검색을 **병렬 오케스트레이션**
-- **[Repository →](https://github.com/jkwltx177/smart-glass-ai-system)**
+- **[Repository](https://github.com/jkwltx177/smart-glass-ai-system)**
 
 ### Startup-Invest-Agent — 반도체·AI 스타트업 투자 평가 멀티 에이전트
 > 팀 프로젝트(4인) · 파이프라인 · 임베딩 담당
@@ -137,7 +134,7 @@ now:     "AI 서비스를 End-to-End로 설계하는 엔지니어로 성장 중"
 후보 발굴 → 기술 분석 → 투자/보류 판단 → 리포트 생성으로 이어지는 **적응형 멀티 에이전트 RAG 파이프라인**입니다.
 - `LangGraph` · `FAISS` + `BGE-m3-ko` 임베딩 · `pdfplumber` · Reflection 기반 리포트 생성
 - Recall@10 **0.85** · Hit Rate@10 **0.90** · MRR **0.78**
-- **[Repository →](https://github.com/jkwltx177/startup-invest-agent)**
+- **[Repository](https://github.com/jkwltx177/startup-invest-agent)**
 
 <details>
 <summary><b>More Projects (펼쳐보기)</b></summary>
@@ -203,9 +200,9 @@ now:     "AI 서비스를 End-to-End로 설계하는 엔지니어로 성장 중"
 <div align="center">
 
 <br/>
-
+<!--
 **실패를 두려워하지 않고, 스스로 문제를 정의하여 해결하는 엔지니어**
-
+-->
 <img width="100%" src="./header_minimal.png" alt="" />
 
 </div>
