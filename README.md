@@ -15,6 +15,7 @@
 
 </div>
 
+<!--
 ## About Me
 
 > **"측정되지 않는 AI는 배포될 수 없다" — AI의 출력을 검증하는 체계까지 설계하는 엔지니어**
@@ -30,6 +31,7 @@ role:   "AI Service Engineer / AX Engineer"
 focus:  ["LLM Agent", "Agent Evaluation", "RAG", "MSA", "Computer Vision"]
 motto:  "작게 만들고, 측정하고, 반복한다"
 ```
+-->
 
 ## Tech Stack
 
@@ -153,7 +155,9 @@ motto:  "작게 만들고, 측정하고, 반복한다"
 <div align="center">
 <br/>
 
+<!--
 **작게 만들고, 측정하고, 반복한다.**
+-->
 
 <img width="100%" src="./header_minimal.png" alt="" />
 
