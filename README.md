@@ -65,7 +65,7 @@ motto:  "작게 만들고, 측정하고, 반복한다"
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=for-the-badge&logo=cplusplus&logoColor=white)
 ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=openjdk&logoColor=white)
 ![Unity](https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white)
-<br/><sub>C++ — 자료구조·알고리즘 집중 학습</sub>
+<br/><sub>C++ — 자료구조·알고리즘 집중 학습 · OpenGL 3D 렌더링 팀 프로젝트(<a href="https://github.com/jkwltx177/cg-opengl-maze">cg-opengl-maze</a>)</sub>
 
 ## Featured Projects
 
@@ -117,9 +117,10 @@ motto:  "작게 만들고, 측정하고, 반복한다"
 | **[Startup-Invest-Agent](https://github.com/jkwltx177/startup-invest-agent)** | 반도체·AI 스타트업 투자심사 멀티에이전트 (4인) — 파이프라인 설계·한국어 RAG(BGE-m3-ko)·**LLM은 척도 추출, 판정은 결정론적 Scorecard/Gate로 분리** | LangGraph · FAISS · pdfplumber |
 | **[LGES vs CATL Agent](https://github.com/jkwltx177/lges-vs-catl-analysis)** | 배터리 산업 전략 비교 AI Agent (4인) — 데이터 정제·SWOT 구조화(Refine) 단계 설계, 출처 보존 Structured Output | LangGraph · Chroma · Pydantic |
 | **[MOAA](https://github.com/jkwltx177/2025-1-Mobile-computing-MOAA)** | 기프티콘 자동 정리 앱 (4인 **조장**) — **ML Kit 온디바이스 OCR·바코드** 추출 파이프라인·중복 등록 방지 설계, 유저 인터뷰→배포 전 과정 | React Native · ML Kit |
-| **[Ræm (raemctrl)](https://github.com/jkwltx177/raemctrl)** | 졸업전시 AI 심리 투사 검사(HTP) 키오스크 — 플로피·프린터·OBS 통합 제어, **3일 400명 무중단 운영** · 캡스톤디자인 경진대회 **장려상** | Python · OpenCV · Socket |
-| **[TrendPilot](https://github.com/jkwltx177/trendpilot-kbeauty-agent)** | K뷰티 글로벌 진출 전략 B2B 에이전트 (2인) — 제품 사진 1장 → 규제 RAG·트렌드 분석 → 전략 PDF·광고 에셋 | GPT-4o · DALL·E 3 · ChromaDB |
+| **[Ræm (raemctrl)](https://github.com/jkwltx177/raemctrl)** | 졸업전시 AI 심리 투사 검사(HTP) 키오스크 — 플로피·프린터·OBS 통합 제어, **전시 3일 449명(로그 실측) 무중단 운영** · 캡스톤디자인 경진대회 **장려상** | Python · Pygame · OBS WebSocket |
+| **[TrendPilot](https://github.com/jkwltx177/trendpilot-kbeauty-agent)** | K뷰티 글로벌 진출 전략 B2B 에이전트 (2인, **준우승**) — 제품 사진 1장 → 규제 RAG·트렌드 분석 → 전략 PDF·광고 에셋 | GPT-4o · DALL·E 3 · ChromaDB |
 | **[Artifiction](https://github.com/jkwltx177/artifiction)** | 명화 딥페이크·스타일 트랜스퍼 전시 (캡스톤 I, 3인 팀 개발 담당) — GTX 1660 Ti 단일 노트북에서 스타일 모델 3종 학습·서빙, 품질-시간 트레이드오프 설계 | InsightFace · Fast Style Transfer · Unity |
+| **[cg-opengl-maze](https://github.com/jkwltx177/cg-opengl-maze)** | C++/OpenGL 고정 파이프라인 **1인칭 3D 미로 게임 + SOR 모델러** (4인) — 카메라·맵·**AABB 충돌 처리** 담당, LOD·텍스처 맵핑·스카이박스 직접 구현 | C++ · OpenGL(GLUT) |
 | **[박쥐피플](https://store.onstove.com/ko/games/4128)** | Unity/C# 게임 — 캐릭터 스위칭·맵·무기 스왑 구현, **스토브 퍼블리싱 완수** | Unity · C# |
 
 </details>
