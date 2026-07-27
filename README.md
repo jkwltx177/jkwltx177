@@ -114,6 +114,7 @@ motto:  "작게 만들고, 측정하고, 반복한다"
 
 | 프로젝트 | 설명 | 핵심 기술 |
 |---|---|---|
+| **[career-campaign-template](https://github.com/jkwltx177/career-campaign-template)** | Claude Code를 **취준 전담 AI 컨설턴트**로 만드는 오픈소스 템플릿 (1인) — 채용 전문가 페르소나 · **위키형 파일 메모리**(회사별 status/연대기/규칙 이원화) · **멀티에이전트 워크플로우 3종**(정책 변화 스캔 리서치·적대적 자소서 검토·코테 복기), 실제 대기업 지원 캠페인 한 시즌 운영으로 검증 | Claude Code · Multi-Agent Workflow |
 | **[Startup-Invest-Agent](https://github.com/jkwltx177/startup-invest-agent)** | 반도체·AI 스타트업 투자심사 멀티에이전트 (4인) — 파이프라인 설계·한국어 RAG(BGE-m3-ko)·**LLM은 척도 추출, 판정은 결정론적 Scorecard/Gate로 분리** | LangGraph · FAISS · pdfplumber |
 | **[LGES vs CATL Agent](https://github.com/jkwltx177/lges-vs-catl-analysis)** | 배터리 산업 전략 비교 AI Agent (4인) — 데이터 정제·SWOT 구조화(Refine) 단계 설계, 출처 보존 Structured Output | LangGraph · Chroma · Pydantic |
 | **[MOAA](https://github.com/jkwltx177/2025-1-Mobile-computing-MOAA)** | 기프티콘 자동 정리 앱 (4인 **조장**) — **ML Kit 온디바이스 OCR·바코드** 추출 파이프라인·중복 등록 방지 설계, 유저 인터뷰→배포 전 과정 | React Native · ML Kit |
