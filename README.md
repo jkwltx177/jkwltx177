@@ -51,7 +51,7 @@
 
 ## Featured Projects
 
-<sub>카드의 숫자는 장식이 아니라 전부 실측·집계값입니다.</sub>
+<sub>카드의 숫자는 전부 실측·집계값입니다.</sub>
 
 ### QApilot · Agentic AI 기반 통합 테스트 자동화 시스템
 
@@ -59,7 +59,7 @@
 
 코드베이스와 요구사항 문서(PRD·정책·약관)를 읽어 **E2E 테스트 시나리오(TS·TC·TV)를 자동 생성**하고, Playwright로 **UI-API-DB 3-Tier를 교차 검증**하는 Agentic AI 시스템입니다. 장애 시 원인 후보(Top-N)·수정 코드·담당자를 제안하고, 요구사항 추적(RTM)·HITL 승인까지 통합 테스트 전 과정을 자동화합니다.
 
-<img src="./assets/stats_qapilot.svg" width="720" alt="결함 판정 정확도 96.6% · LLM 호출 비용 93% 절감 · 골든셋 224 TC 전수 실측 (요구사항 커버리지 100%)"/>
+<img src="./assets/stats_qapilot.svg" width="100%" alt="결함 판정 정확도 96.6% · LLM 호출 비용 93% 절감 · 골든셋 224 TC 전수 실측 (요구사항 커버리지 100%)"/>
 
 - 시나리오 생성을 TS·TC·TV Agent로 분리해 컨텍스트 폭주·할루시네이션 완화 ($0.21→$0.0144, usage_metadata 실측 · 요구사항 커버리지 100% · 테스트 코드 정확도 89.2%)
 - 실행 불가(SKIPPED)·검증 축 부재(UNVERIFIED)를 분리하는 **판정 분류 체계**를 직접 정의. '확인되지 않은 성공'이 지표를 오염시키지 않게 설계
@@ -75,7 +75,7 @@
 
 하루 ~14,000편 쏟아지는 논문을 **자동 수집·평가·한국어 요약**하고 사내 문서와 연결하는 MSA 플랫폼입니다. Sakana.ai *The AI Scientist*의 평가 코드를 직접 분석(리서치 문서 단독 작성)해 서비스 파이프라인으로 이식했습니다.
 
-<img src="./assets/stats_baggin.svg" width="720" alt="프로젝트 평가 94.8점 · 논문당 LLM 비용 30% 절감 · 팀 내 최다 커밋 47/90"/>
+<img src="./assets/stats_baggin.svg" width="100%" alt="프로젝트 평가 94.8점 · 논문당 LLM 비용 30% 절감 · 팀 내 최다 커밋 47/90"/>
 
 - 논문 평가(AIRA): 데스크 리젝션(gpt-4o-mini) → **Reviewer 3인 앙상블 + Self-Reflection + Area Chair 메타리뷰**(GPT-4o) → 점수 ≥ 5.0만 요약·적재. 싼 판정에서 비싼 판정으로 계층화해 논문당 API 호출 7회 억제
 - arXiv 수집 → Kafka 이벤트 → 평가 → ChromaDB RAG → 사내 문서 비교 보고서 스트리밍
@@ -90,7 +90,7 @@
 
 직원이 카탈로그에서 AI 에이전트를 구독하면 부서 예산으로 **노드 단위 사용량 과금**(Kafka 이벤트 → billing)이 이뤄지는 사내 에이전트 마켓플레이스입니다. 첫 입점 상품으로 투자심사 멀티에이전트를 탑재했습니다.
 
-<img src="./assets/stats_airport.svg" width="720" alt="LangGraph 11노드 파이프라인 · Spring Cloud MSA 7서비스 · HITL 체크포인트 5개"/>
+<img src="./assets/stats_airport.svg" width="100%" alt="LangGraph 11노드 파이프라인 · Spring Cloud MSA 7서비스 · HITL 체크포인트 5개"/>
 
 - Supervisor 라우팅 → 병렬 fan-out 분석(기술·시장·경쟁사) → **LLM-as-Judge 재시도 루프**(실패한 에이전트만 부분 재실행, 최대 3회) → 투자 판정 → PDF 보고서
 - FastAPI **WebSocket으로 노드 실행 로그를 실시간 스트리밍**하는 3-Panel 워크스페이스
@@ -105,7 +105,7 @@
 
 스마트글래스를 쓴 현장 엔지니어의 음성·사진을 **STT(faster-whisper) → Vision(GPT-4V) → 고장확률·잔여수명 예측(LGBM/XGB/TCN) → 정비 매뉴얼 RAG 조치 가이드**로 잇는 차량 ECU 진단 시스템입니다 (OBD 표준 진단코드 DTC 기반).
 
-<img src="./assets/stats_ecu.svg" width="720" alt="발표 평가 2위 · 팀 내 최다 커밋 47/95 · NGINX 카나리 90/10 배포"/>
+<img src="./assets/stats_ecu.svg" width="100%" alt="발표 평가 2위 · 팀 내 최다 커밋 47/95 · NGINX 카나리 90/10 배포"/>
 
 - 전체 디렉토리 구조·API 명세(A~F)를 초기 설계하고 LangGraph 멀티모달 오케스트레이션·하이브리드 RAG(FAISS 벡터+RDB 유사사례)를 통합. PR 통합 게이트 역할(머지 9건 중 5건)
 - **GitHub Actions CI → Harbor → ArgoCD GitOps → NGINX 카나리** 배포를 프로젝트 종료 후 자발적 심화 학습으로 실클러스터에 단독 구축. PVC multi-attach 등 운영 트러블슈팅 커밋이 그 기록
