@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 46" role="img">
+<rect x="0.5" y="0.5" width="999" height="45" rx="12" fill="#040423" stroke="#8AB4FF" stroke-opacity="0.22"/>
+<rect x="20" y="14" width="4" height="18" rx="2" fill="#8AB4FF"/>
+<text x="38" y="30" font-size="17.5" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" fill="#8AB4FF">ECU Quality System (Smart Glass)<tspan fill="#DDE3FF" font-weight="600"> · 차량 ECU 품질 진단 멀티모달 AI MSA</tspan></text>
+</svg>

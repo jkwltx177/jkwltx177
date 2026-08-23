@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 46" role="img">
+<rect x="0.5" y="0.5" width="999" height="45" rx="12" fill="#040423" stroke="#8AB4FF" stroke-opacity="0.22"/>
+<rect x="20" y="14" width="4" height="18" rx="2" fill="#8AB4FF"/>
+<text x="38" y="30" font-size="17.5" font-weight="700" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif" fill="#8AB4FF">QApilot<tspan fill="#DDE3FF" font-weight="600"> · Agentic AI 기반 통합 테스트 자동화 시스템</tspan></text>
+</svg>
