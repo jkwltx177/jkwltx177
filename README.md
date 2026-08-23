@@ -15,7 +15,7 @@
 
 </div>
 
-## Tech Stack
+<img src="./assets/h_stack.svg" width="100%" alt="Tech Stack"/>
 
 #### AI / ML
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -49,7 +49,7 @@
 ![Unity](https://img.shields.io/badge/Unity-000000?style=for-the-badge&logo=unity&logoColor=white)
 <br/><sub>C++: 자료구조·알고리즘 집중 학습 · OpenGL 3D 렌더링 팀 프로젝트(<a href="https://github.com/jkwltx177/cg-opengl-maze">cg-opengl-maze</a>)</sub>
 
-## Featured Projects
+<img src="./assets/h_projects.svg" width="100%" alt="Featured Projects"/>
 
 <sub>카드의 숫자는 전부 실측·집계값입니다.</sub>
 
@@ -133,14 +133,14 @@
 
 </details>
 
-## Research Experience
+<img src="./assets/h_research.svg" width="100%" alt="Research Experience"/>
 
 ### 중앙대학교 CISLAB · 학부연구생 (AI·백엔드) · 2024.10 ~ 2025.10
 - **LeNet-5 → ResNet → Vanilla Transformer**를 PyTorch로 밑바닥부터 구현·스크래치 학습 (Multi-GPU 영한 번역 성능 검증)
 - 웹 플랫폼 MVP **백엔드 개발**: `FastAPI` · `SQLAlchemy ORM` · `MySQL`
 - 딥러닝 논문 스터디 진행
 
-## Awards & Education & Certifications
+<img src="./assets/h_awards.svg" width="100%" alt="Awards, Education, Certifications"/>
 
 **Awards**
 - **SKALA AI 서비스 개발 팀 프로젝트 최우수상 (1위)** · SK AX
@@ -153,7 +153,7 @@
 **Certifications**
 - **SQLD** (SQL 개발자) · 한국데이터산업진흥원, 2026.03
 
-## GitHub Stats
+<img src="./assets/h_stats.svg" width="100%" alt="GitHub Stats"/>
 
 <div align="center">
 
