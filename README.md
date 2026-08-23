@@ -15,10 +15,6 @@
 
 </div>
 
-<br/>
-
-LLM 에이전트·RAG부터 MSA 백엔드, K8s 배포까지 직접 만듭니다. AI의 출력은 골든셋 전수 실측으로 확인하고, 검증되지 않은 성공은 성공으로 세지 않습니다.
-
 ## Tech Stack
 
 #### AI / ML
@@ -56,42 +52,46 @@ LLM 에이전트·RAG부터 MSA 백엔드, K8s 배포까지 직접 만듭니다.
 ## Featured Projects
 
 ### QApilot · Agentic AI 기반 통합 테스트 자동화 시스템
-> **SKALA AI 서비스 개발 팀 프로젝트 최우수상(1위)** · **기술 리드**(오케스트레이터·Agent 설계·백엔드·테스트 대상 시스템 전체) · 6인 팀 · SKT 차세대 시스템(NOVA)을 개발하는 SK AX 현업 조직 발주
 
-코드베이스와 요구사항 문서(PRD·정책·약관)를 읽어 **E2E 테스트 시나리오(TS·TC·TV)를 자동 생성**하고, Playwright로 **UI–API–DB 3-Tier를 교차 검증**하는 Agentic AI 시스템입니다. 장애 시 원인 후보(Top-N)·수정 코드·담당자를 제안하고, 요구사항 추적(RTM)·HITL 승인까지 통합 테스트 전 과정을 자동화합니다.
-- 골든셋 **224 TC** 전수 실측: **요구사항 커버리지 100% · 결함 판정 정확도 96.6% · 테스트 코드 정확도 89.2%**
-- 시나리오 생성을 **TS·TC·TV Agent로 분리**해 컨텍스트 폭주·할루시네이션 완화 → **LLM 호출 비용 약 93%↓**($0.21→$0.0144, usage_metadata 실측)
-- 실행 불가(SKIPPED)·검증 축 부재(UNVERIFIED)를 분리하는 **판정 분류 체계**를 직접 정의. '확인되지 않은 성공'이 지표를 오염시키지 않게 설계했습니다
-- `LangGraph` Orchestrator(9 Agent · 8 Tool) · `FastAPI` · `Spring Boot` · `React`+`Vite` · `Playwright` · `tree-sitter`(AST) · `Qdrant` · `BGE-M3` · `Celery`/`Redis` · `PostgreSQL`+`S3`
-- 테스트 대상 시스템 **Mini-BSS**(통신 BSS MSA: FastAPI×2 + Vue 3 16화면 + PostgreSQL·MariaDB, 의도적 결함 7종)까지 단독 설계·구현
-- **[skala-QApilot](https://github.com/skala-QApilot)** · **[SUT](https://github.com/skala-QApilot/system-under-test)**
+<table>
+<tr><td width="118" valign="top"><b>수상 · 역할</b></td><td>SKALA AI 서비스 개발 팀 프로젝트 <b>최우수상(1위)</b> · 6인 팀 <b>기술 리드</b>(오케스트레이터 · Agent 설계 · 백엔드 · 테스트 대상 시스템 전체) · SKT 차세대 시스템(NOVA)을 개발하는 SK AX 현업 조직 발주</td></tr>
+<tr><td valign="top"><b>개요</b></td><td>코드베이스와 요구사항 문서(PRD·정책·약관)를 읽어 <b>E2E 테스트 시나리오(TS·TC·TV)를 자동 생성</b>하고, Playwright로 <b>UI-API-DB 3-Tier를 교차 검증</b>하는 Agentic AI 시스템. 장애 시 원인 후보(Top-N)·수정 코드·담당자를 제안하고, 요구사항 추적(RTM)·HITL 승인까지 통합 테스트 전 과정을 자동화</td></tr>
+<tr><td valign="top"><b>실측 성과</b></td><td>골든셋 <b>224 TC</b> 전수 실측: 요구사항 커버리지 <b>100%</b> · 결함 판정 정확도 <b>96.6%</b> · 테스트 코드 정확도 <b>89.2%</b><br/>시나리오 생성을 TS·TC·TV Agent로 분리해 컨텍스트 폭주·할루시네이션 완화 → LLM 호출 비용 약 <b>93%↓</b>($0.21→$0.0144, usage_metadata 실측)</td></tr>
+<tr><td valign="top"><b>설계</b></td><td>실행 불가(SKIPPED)·검증 축 부재(UNVERIFIED)를 분리하는 <b>판정 분류 체계</b>를 직접 정의. '확인되지 않은 성공'이 지표를 오염시키지 않게 설계<br/>테스트 대상 시스템 <b>Mini-BSS</b>(통신 BSS MSA: FastAPI×2 + Vue 3 16화면 + PostgreSQL·MariaDB, 의도적 결함 7종)까지 단독 설계·구현</td></tr>
+<tr><td valign="top"><b>스택</b></td><td><code>LangGraph</code> Orchestrator(9 Agent · 8 Tool) · <code>FastAPI</code> · <code>Spring Boot</code> · <code>React</code>+<code>Vite</code> · <code>Playwright</code> · <code>tree-sitter</code>(AST) · <code>Qdrant</code> · <code>BGE-M3</code> · <code>Celery</code>/<code>Redis</code> · <code>PostgreSQL</code>+<code>S3</code></td></tr>
+<tr><td valign="top"><b>링크</b></td><td><a href="https://github.com/skala-QApilot"><b>skala-QApilot</b></a> · <a href="https://github.com/skala-QApilot/system-under-test"><b>SUT</b></a></td></tr>
+</table>
 
 ### baggin' · 자율 논문 리서치·평가·보고서 생성 AI Agent
-> **SKALA 미니 프로젝트 94.8점** · **팀 내 최다 기여(47/90 커밋)**. 논문 평가 파이프라인(paper-service) 구현 · 챗봇 서비스 단독 개발 · LLM 비용 30% 절감
 
-하루 ~14,000편 쏟아지는 논문을 **자동 수집·평가·한국어 요약**하고 사내 문서와 연결하는 MSA 플랫폼. Sakana.ai *The AI Scientist*의 평가 코드를 직접 분석(리서치 문서 단독 작성)해 서비스 파이프라인으로 이식했습니다.
-- **논문 평가(AIRA)**: 데스크 리젝션(gpt-4o-mini) → **Reviewer 3인 앙상블 + Self-Reflection + Area Chair 메타리뷰**(GPT-4o) → 점수 ≥ 5.0만 요약·적재. 싼 판정에서 비싼 판정으로 계층화해 **논문당 API 호출 7회 억제, 비용 약 30% 절감**
-- arXiv 수집 → Kafka 이벤트 → 평가 → ChromaDB RAG → 사내 문서 비교 보고서 스트리밍
-- `Spring Cloud`(Eureka·Gateway·JWT) · `FastAPI`×5 · `Vue 3` · `Kafka` · `MariaDB` · `ChromaDB` · Docker 12컨테이너
-- **[Repository](https://github.com/jkwltx177/baggin)**
+<table>
+<tr><td width="118" valign="top"><b>수상 · 역할</b></td><td>SKALA 미니 프로젝트 <b>94.8점</b> · <b>팀 내 최다 기여(47/90 커밋)</b> · 논문 평가 파이프라인(paper-service) 구현 · 챗봇 서비스 단독 개발</td></tr>
+<tr><td valign="top"><b>개요</b></td><td>하루 ~14,000편 쏟아지는 논문을 <b>자동 수집·평가·한국어 요약</b>하고 사내 문서와 연결하는 MSA 플랫폼. Sakana.ai <i>The AI Scientist</i>의 평가 코드를 직접 분석(리서치 문서 단독 작성)해 서비스 파이프라인으로 이식</td></tr>
+<tr><td valign="top"><b>실측 성과</b></td><td>싼 판정에서 비싼 판정으로 계층화해 논문당 API 호출 <b>7회 억제</b>, LLM 비용 약 <b>30% 절감</b></td></tr>
+<tr><td valign="top"><b>설계</b></td><td>논문 평가(AIRA): 데스크 리젝션(gpt-4o-mini) → <b>Reviewer 3인 앙상블 + Self-Reflection + Area Chair 메타리뷰</b>(GPT-4o) → 점수 ≥ 5.0만 요약·적재<br/>arXiv 수집 → Kafka 이벤트 → 평가 → ChromaDB RAG → 사내 문서 비교 보고서 스트리밍</td></tr>
+<tr><td valign="top"><b>스택</b></td><td><code>Spring Cloud</code>(Eureka·Gateway·JWT) · <code>FastAPI</code>×5 · <code>Vue 3</code> · <code>Kafka</code> · <code>MariaDB</code> · <code>ChromaDB</code> · Docker 12컨테이너</td></tr>
+<tr><td valign="top"><b>링크</b></td><td><a href="https://github.com/jkwltx177/baggin"><b>Repository</b></a></td></tr>
+</table>
 
 ### A!rport · 사내 AI 에이전트 스토어
-> SKALA 웹 서비스 개발 미니 프로젝트(4인). AI 에이전트 파이프라인 설계 · RAG 임베딩 · 웹서비스 통합(WebSocket/Kafka) · 워크스페이스 프론트
 
-직원이 카탈로그에서 AI 에이전트를 구독하면 부서 예산으로 **노드 단위 사용량 과금**(Kafka 이벤트 → billing)이 이뤄지는 사내 에이전트 마켓플레이스. 첫 입점 상품으로 투자심사 멀티에이전트를 탑재했습니다.
-- **LangGraph 11노드 파이프라인**: Supervisor 라우팅 → 병렬 fan-out 분석(기술·시장·경쟁사) → **LLM-as-Judge 재시도 루프**(실패한 에이전트만 부분 재실행, 최대 3회) → 투자 판정 → PDF 보고서
-- FastAPI **WebSocket으로 노드 실행 로그를 실시간 스트리밍**하는 3-Panel 워크스페이스, HITL 체크포인트 5개
-- `Spring Cloud` MSA 7서비스(Eureka·Gateway·OAuth2/JWT·Billing) · `Vue 3` · `FAISS`+`BGE-M3` 로컬 RAG(캐시 히트 시 웹검색 생략)
-- **[Repository](https://github.com/jkwltx177/airport-agent-store)**
+<table>
+<tr><td width="118" valign="top"><b>역할</b></td><td>SKALA 웹 서비스 개발 미니 프로젝트(4인) · AI 에이전트 파이프라인 설계 · RAG 임베딩 · 웹서비스 통합(WebSocket/Kafka) · 워크스페이스 프론트</td></tr>
+<tr><td valign="top"><b>개요</b></td><td>직원이 카탈로그에서 AI 에이전트를 구독하면 부서 예산으로 <b>노드 단위 사용량 과금</b>(Kafka 이벤트 → billing)이 이뤄지는 사내 에이전트 마켓플레이스. 첫 입점 상품으로 투자심사 멀티에이전트를 탑재</td></tr>
+<tr><td valign="top"><b>설계</b></td><td><b>LangGraph 11노드 파이프라인</b>: Supervisor 라우팅 → 병렬 fan-out 분석(기술·시장·경쟁사) → <b>LLM-as-Judge 재시도 루프</b>(실패한 에이전트만 부분 재실행, 최대 3회) → 투자 판정 → PDF 보고서<br/>FastAPI <b>WebSocket으로 노드 실행 로그를 실시간 스트리밍</b>하는 3-Panel 워크스페이스, HITL 체크포인트 5개</td></tr>
+<tr><td valign="top"><b>스택</b></td><td><code>Spring Cloud</code> MSA 7서비스(Eureka·Gateway·OAuth2/JWT·Billing) · <code>Vue 3</code> · <code>FAISS</code>+<code>BGE-M3</code> 로컬 RAG(캐시 히트 시 웹검색 생략)</td></tr>
+<tr><td valign="top"><b>링크</b></td><td><a href="https://github.com/jkwltx177/airport-agent-store"><b>Repository</b></a></td></tr>
+</table>
 
 ### ECU Quality System (Smart Glass) · 차량 ECU 품질 진단 멀티모달 AI MSA
-> **SKALA 미니 프로젝트 발표 평가 2위** · 4인 팀 · **최다 기여(47/95 커밋)**. 초기 아키텍처·API 명세 설계 · AI 파이프라인 통합 · 백엔드 · 배포 인프라
 
-스마트글래스를 쓴 현장 엔지니어의 음성·사진을 **STT(faster-whisper) → Vision(GPT-4V) → 고장확률·잔여수명 예측(LGBM/XGB/TCN) → 정비 매뉴얼 RAG 조치 가이드**로 잇는 차량 ECU 진단 시스템 (OBD 표준 진단코드 DTC 기반).
-- 전체 디렉토리 구조·API 명세(A~F)를 초기 설계하고 LangGraph 멀티모달 오케스트레이션·하이브리드 RAG(FAISS 벡터+RDB 유사사례)를 통합. PR 통합 게이트 역할(머지 9건 중 5건)
-- **GitHub Actions CI → Harbor → ArgoCD GitOps → NGINX 카나리(90/10)** 배포를 프로젝트 종료 후 자발적 심화 학습으로 실클러스터에 단독 구축. PVC multi-attach 등 운영 트러블슈팅 커밋이 그 기록입니다
-- `FastAPI` · `Spring Boot`(JWT) · `Vue 3`/`TS` · `FAISS` · `MariaDB` · `K8s`/`ArgoCD`
-- **[Repository](https://github.com/jkwltx177/smart-glass-ai-system)**
+<table>
+<tr><td width="118" valign="top"><b>수상 · 역할</b></td><td>SKALA 미니 프로젝트 <b>발표 평가 2위</b> · 4인 팀 · <b>최다 기여(47/95 커밋)</b> · 초기 아키텍처·API 명세 설계 · AI 파이프라인 통합 · 백엔드 · 배포 인프라</td></tr>
+<tr><td valign="top"><b>개요</b></td><td>스마트글래스를 쓴 현장 엔지니어의 음성·사진을 <b>STT(faster-whisper) → Vision(GPT-4V) → 고장확률·잔여수명 예측(LGBM/XGB/TCN) → 정비 매뉴얼 RAG 조치 가이드</b>로 잇는 차량 ECU 진단 시스템 (OBD 표준 진단코드 DTC 기반)</td></tr>
+<tr><td valign="top"><b>설계</b></td><td>전체 디렉토리 구조·API 명세(A~F)를 초기 설계하고 LangGraph 멀티모달 오케스트레이션·하이브리드 RAG(FAISS 벡터+RDB 유사사례)를 통합. PR 통합 게이트 역할(머지 9건 중 5건)<br/><b>GitHub Actions CI → Harbor → ArgoCD GitOps → NGINX 카나리(90/10)</b> 배포를 프로젝트 종료 후 자발적 심화 학습으로 실클러스터에 단독 구축. PVC multi-attach 등 운영 트러블슈팅 커밋이 그 기록</td></tr>
+<tr><td valign="top"><b>스택</b></td><td><code>FastAPI</code> · <code>Spring Boot</code>(JWT) · <code>Vue 3</code>/<code>TS</code> · <code>FAISS</code> · <code>MariaDB</code> · <code>K8s</code>/<code>ArgoCD</code></td></tr>
+<tr><td valign="top"><b>링크</b></td><td><a href="https://github.com/jkwltx177/smart-glass-ai-system"><b>Repository</b></a></td></tr>
+</table>
 
 <details>
 <summary><b>More Projects (펼쳐보기)</b></summary>
@@ -115,22 +115,20 @@ LLM 에이전트·RAG부터 MSA 백엔드, K8s 배포까지 직접 만듭니다.
 ## Research Experience
 
 ### 중앙대학교 CISLAB · 학부연구생 (AI·백엔드) · 2024.10 ~ 2025.10
-- **LeNet-5 → ResNet → Vanilla Transformer**를 PyTorch로 밑바닥부터 구현·스크래치 학습 (Multi-GPU 영한 번역 성능 검증)
-- 웹 플랫폼 MVP **백엔드 개발**: `FastAPI` · `SQLAlchemy ORM` · `MySQL`
-- 딥러닝 논문 스터디 진행
+
+<table>
+<tr><td width="118" valign="top"><b>논문 구현</b></td><td><b>LeNet-5 → ResNet → Vanilla Transformer</b>를 PyTorch로 밑바닥부터 구현·스크래치 학습 (Multi-GPU 영한 번역 성능 검증)</td></tr>
+<tr><td valign="top"><b>백엔드</b></td><td>웹 플랫폼 MVP 백엔드 개발: <code>FastAPI</code> · <code>SQLAlchemy ORM</code> · <code>MySQL</code></td></tr>
+<tr><td valign="top"><b>스터디</b></td><td>딥러닝 논문 스터디 진행</td></tr>
+</table>
 
 ## Awards & Education & Certifications
 
-**Awards**
-- **SKALA AI 서비스 개발 팀 프로젝트 최우수상 (1위)** · SK AX
-- **2025 SW·AI 캡스톤디자인 경진대회 장려상** · 중앙대학교 SW교육원
-
-**Education**
-- **SK AI Leader Academy (SKALA)** 수료 · SK AX (2026.01 ~ 2026.06)
-- **중앙대학교** 예술공학대학 컴퓨터예술학부 졸업 (2020.03 ~ 2026.08)
-
-**Certifications**
-- **SQLD** (SQL 개발자) · 한국데이터산업진흥원, 2026.03
+<table>
+<tr><td width="118" valign="top"><b>Awards</b></td><td><b>SKALA AI 서비스 개발 팀 프로젝트 최우수상 (1위)</b> · SK AX<br/><b>2025 SW·AI 캡스톤디자인 경진대회 장려상</b> · 중앙대학교 SW교육원</td></tr>
+<tr><td valign="top"><b>Education</b></td><td><b>SK AI Leader Academy (SKALA)</b> 수료 · SK AX (2026.01 ~ 2026.06)<br/><b>중앙대학교</b> 예술공학대학 컴퓨터예술학부 졸업 (2020.03 ~ 2026.08)</td></tr>
+<tr><td valign="top"><b>Certifications</b></td><td><b>SQLD</b> (SQL 개발자) · 한국데이터산업진흥원, 2026.03</td></tr>
+</table>
 
 ## GitHub Stats
 
