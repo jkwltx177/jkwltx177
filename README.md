@@ -53,7 +53,7 @@
 
 <sub>카드의 숫자는 전부 실측·집계값입니다.</sub>
 
-### QApilot · Agentic AI 기반 통합 테스트 자동화 시스템
+<img src="./assets/h3_qapilot.svg" width="100%" alt="QApilot · Agentic AI 기반 통합 테스트 자동화 시스템"/>
 
 > SKALA AI 서비스 개발 팀 프로젝트 **최우수상(1위)** · 6인 팀 **기술 리드**(오케스트레이터·Agent 설계·백엔드·테스트 대상 시스템 전체) · SKT 차세대 시스템(NOVA)을 개발하는 SK AX 현업 조직 발주
 
@@ -69,7 +69,7 @@
 
 **[skala-QApilot](https://github.com/skala-QApilot)** · **[SUT](https://github.com/skala-QApilot/system-under-test)**
 
-### baggin' · 자율 논문 리서치·평가·보고서 생성 AI Agent
+<img src="./assets/h3_baggin.svg" width="100%" alt="baggin&#39; · 자율 논문 리서치·평가·보고서 생성 AI Agent"/>
 
 > SKALA 미니 프로젝트 · 논문 평가 파이프라인(paper-service) 구현 · 챗봇 서비스 단독 개발
 
@@ -84,7 +84,7 @@
 
 **[Repository](https://github.com/jkwltx177/baggin)**
 
-### A!rport · 사내 AI 에이전트 스토어
+<img src="./assets/h3_airport.svg" width="100%" alt="A!rport · 사내 AI 에이전트 스토어"/>
 
 > SKALA 웹 서비스 개발 미니 프로젝트(4인) · AI 에이전트 파이프라인 설계 · RAG 임베딩 · 웹서비스 통합(WebSocket/Kafka) · 워크스페이스 프론트
 
@@ -99,7 +99,7 @@
 
 **[Repository](https://github.com/jkwltx177/airport-agent-store)**
 
-### ECU Quality System (Smart Glass) · 차량 ECU 품질 진단 멀티모달 AI MSA
+<img src="./assets/h3_ecu.svg" width="100%" alt="ECU Quality System (Smart Glass) · 차량 ECU 품질 진단 멀티모달 AI MSA"/>
 
 > SKALA 미니 프로젝트 · 4인 팀 · 초기 아키텍처·API 명세 설계 · AI 파이프라인 통합 · 백엔드 · 배포 인프라
 
@@ -135,7 +135,7 @@
 
 <img src="./assets/h_research.svg" width="100%" alt="Research Experience"/>
 
-### 중앙대학교 CISLAB · 학부연구생 (AI·백엔드) · 2024.10 ~ 2025.10
+<img src="./assets/h3_cislab.svg" width="100%" alt="중앙대학교 CISLAB · 학부연구생 (AI·백엔드) · 2024.10 ~ 2025.10"/>
 - **LeNet-5 → ResNet → Vanilla Transformer**를 PyTorch로 밑바닥부터 구현·스크래치 학습 (Multi-GPU 영한 번역 성능 검증)
 - 웹 플랫폼 MVP **백엔드 개발**: `FastAPI` · `SQLAlchemy ORM` · `MySQL`
 - 딥러닝 논문 스터디 진행
