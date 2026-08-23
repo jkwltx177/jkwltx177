@@ -136,6 +136,7 @@
 <img src="./assets/h_research.svg" width="100%" alt="Research Experience"/>
 
 <img src="./assets/h3_cislab.svg" width="100%" alt="중앙대학교 CISLAB · 학부연구생 (AI·백엔드) · 2024.10 ~ 2025.10"/>
+
 - **LeNet-5 → ResNet → Vanilla Transformer**를 PyTorch로 밑바닥부터 구현·스크래치 학습 (Multi-GPU 영한 번역 성능 검증)
 - 웹 플랫폼 MVP **백엔드 개발**: `FastAPI` · `SQLAlchemy ORM` · `MySQL`
 - 딥러닝 논문 스터디 진행
